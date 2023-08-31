@@ -19,6 +19,7 @@
 		9988B95C2A9F87DB003BE2E5 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988B95B2A9F87DB003BE2E5 /* LocationService.swift */; };
 		9988B95F2A9F95AD003BE2E5 /* CreateListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988B95E2A9F95AD003BE2E5 /* CreateListController.swift */; };
 		9995A7E72AA065A00059E122 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995A7E62AA065A00059E122 /* Place.swift */; };
+		9995A7E92AA0B1440059E122 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995A7E82AA0B1440059E122 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9988B95B2A9F87DB003BE2E5 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		9988B95E2A9F95AD003BE2E5 /* CreateListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListController.swift; sourceTree = "<group>"; };
 		9995A7E62AA065A00059E122 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9995A7E82AA0B1440059E122 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +115,8 @@
 				9988B95D2A9F87DF003BE2E5 /* Location */,
 				993E24902A9F1C9D00179A2D /* ViewController.swift */,
 				9988B95E2A9F95AD003BE2E5 /* CreateListController.swift */,
-				9988B95B2A9F87DB003BE2E5 /* LocationService.swift */,
 				9988B9542A9F83D1003BE2E5 /* ActivityLocationController.swift */,
+				9995A7E82AA0B1440059E122 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +124,7 @@
 		9988B95D2A9F87DF003BE2E5 /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				9988B95B2A9F87DB003BE2E5 /* LocationService.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9995A7E92AA0B1440059E122 /* DetailViewController.swift in Sources */,
 				993E24912A9F1C9D00179A2D /* ViewController.swift in Sources */,
 				993E248D2A9F1C9D00179A2D /* AppDelegate.swift in Sources */,
 				9988B95F2A9F95AD003BE2E5 /* CreateListController.swift in Sources */,

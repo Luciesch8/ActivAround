@@ -13,6 +13,12 @@ enum PlaceCategory: String, CaseIterable {
     case restaurant
     case park
     case museum
+    case cafe
+    case hotel
+    case theater
+    case zoo
+    case amusementPark
+    case aquarium
 }
 
 struct Place {
@@ -21,4 +27,17 @@ struct Place {
     var isCurrentLocation: Bool
     var pointOfInterestCategory: MKPointOfInterestCategory?
     var url: URL?
+}
+
+struct Category {
+    let name: String
+    var items: [Place]
+}
+
+struct PlaceList {
+    var name: String
+    var city: String
+    var radius: Int
+    var places: [Place]
+    var date: Date? // Optionnel si vous voulez que ce soit facultatif
 }
